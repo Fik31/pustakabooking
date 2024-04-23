@@ -13,6 +13,7 @@
                         Form Input Data Mata Kuliah
                     </th>
                 </tr>
+                
                 <tr>
                     <td colspan="3" <hr>
                     </td>
@@ -23,6 +24,7 @@
                     <td>
                         <input type="text" name="kode" id="kode">
                     </td>
+                    <?= form_error('kode');?>
                 </tr>
                 <tr>
                     <th>Nama MTK</th>
@@ -30,6 +32,7 @@
                     <td>
                         <input type="text" name="nama" id="nama">
                     </td>
+                    <?= form_error('nama');?>
                 </tr>
                 <tr>
                     <th>SKS</th>
@@ -53,4 +56,4 @@
     </center>
 </body>
 
-</html
+</html>
